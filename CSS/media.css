@@ -1,0 +1,72 @@
+/* Basic Reset and Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #0a4212;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+/* Section Styling */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Figure and Media Styling */
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+audio, video {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Picture and Image Styling */
+picture {
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 10px 0;
+    color: #555;
+}

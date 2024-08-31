@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessing's Form</title>
+
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="./CSS/form.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><strong>Home Page</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <!-- Left Container -->
+        <div class="left-container">
+            <div class="container-logo">
+                <div class="logo">
+                    <img src="./Assets/Image/altschool.jpg" alt="AltSchool Logo">
+                </div>
+                <h1>Learn highly sought<br>after skills without<br>hassle.</h1>
+            </div>
+
+
+            <!-- Footer nested in the left container -->
+            <footer>
+                <div class="social-links">
+                    <a href="https://twitter.com/altschoolafrica" target="_blank">
+                        <img src="./Assets/Image/twitter.jpg" alt="Twitter" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="https://facebook.com/AltSchoolAfrica" target="_blank">
+                        <img src="./Assets/Image/facebook.jpg" alt="Facebook" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="https://linkedin.com/school/altschoolafrica" target="_blank">
+                        <img src="./Assets/Image/linkedin.jpg" alt="LinkedIn" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="https://instagram.com/altschoolafrica" target="_blank">
+                        <img src="./Assets/Image/instagram.jpg" alt="Instagram" style="width: 24px; height: 24px;">
+                    </a>
+                </div>
+                <div class="tel">
+                    <p>Tel:0800ALTSCHOOL</p>
+                </div>
+                <div class="copyright">
+                    <span class="copyright">&copy;2024 AltSchool Africa. All rights reserved.</span>
+                </div>
+            </footer>
+        </div>
+
+
+        <!-- Right Container -->
+        <div class="right-container">
+            <div class="signin">
+                <h4><strong>Already an AltSchooler?<span class="signin"><a href="https://portal.altschoolafrica.com/auth/login">Sign In!</a></span></strong></h4>
+            </div>
+
+
+            <div class="form-group-header">
+                <h2>Signup</h2>
+                <p>Take the next steps to apply at AltSchool Africa</p>
+            </div>
+
+
+            <!-- Form Section -->
+            <form action="post">
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter first name" required>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Enter last name" required>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender" required>
+                            <option value="" selected disabled>Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label for="date-of-birth">Date of Birth</label>
+                        <input type="date" id="date-of-birth" name="date-of-birth" required>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter email address" required>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="08154387000" required>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country" required>
+                            <option value="" selected disabled>Select your country</option>
+                            <!-- populate country options here with JavaScript -->
+                        </select>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label for="state-city-of-residence">State/City of Residence</label>
+                        <input type="text" id="state-city-of-residence" name="state-city-of-residence" placeholder="Enter your state of residence.." required>
+                    </div>
+                </div>
+
+
+                <div class="input-group">
+                    <label for="hear-about">How did you hear about us?</label>
+                    <select id="hear-about" name="hear-about" required>
+                        <option value="" selected disabled>Select channel</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Linkedin">Linkedin</option>
+                        <option value="Youtube">Youtube</option>
+                        <option value="Friend">Friend</option>
+                        <option value="Whatsapp">Whatsapp</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Billboard">Billboard</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter password" minlength="8" required>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Enter password again" minlength="8" required>
+                    </div>
+                </div>
+
+
+                <div class="terms-text">
+                    <p>By clicking continue, I agree to the
+                    <a target="_blank" href="https://altschoolafrica.com/terms-and-conditions">Terms of Use</a>
+                    and acknowledge that I have read the
+                    <a target="_blank" href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a>.</p>
+                </div>
+
+
+                <div class="button-container">
+                    <button type="submit" class="submit-btn">Submit &rarr;</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
